@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 80%;
+    height: 81px;
+    padding: 40px 0px 1.5px 0.5px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    justify-content: end;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.nav2{
+    margin-left: auto;
+}
+.complex{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 125px;
+}
+.complex__text{
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82.5px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF8A56;    
+}
+.complex__title{
+    width: 647px;
+    height: 165px;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82.5px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.complex__united{
+    width: 547px;
+    height: 66px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 27px;
+}
+.complex__button{
+    width: 151px;
+    height: 58px;
+    background-color: black;
+    color: white;    
+    margin-top: 38px;
+}
+.complex2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.complex2 h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+}
